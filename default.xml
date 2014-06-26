@@ -9,7 +9,7 @@
   <remote name="embest-tech-github"
            fetch="git://github.com/embest-tech/" />
 
-  <project remote="yocto" revision="bee7e3756adf70edaeabe9d43166707aab84f581" name="poky" path="sources/poky"/>
+  <project remote="embest-tech-github" revision="embest_dora" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="af392c22bf6b563525ede4a81b6755ff1dd2c1c6" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
   <project remote="oe" revision="eb4563b83be0a57ede4269ab19688af6baa62cd2" name="meta-openembedded" path="sources/meta-openembedded"/>
