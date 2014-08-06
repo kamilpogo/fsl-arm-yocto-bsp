@@ -24,7 +24,7 @@
 
   <project remote="OSSystems" revision="fc3969f63bda343c38c40a23f746c560c4735f3e" name="meta-browser" path="sources/meta-browser" />
 
-  <project remote="embest-tech-github" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" revision="embest_dora_3.10.17-1.0.0_GA">
+  <project remote="embest-tech-github" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" revision="rohm_dora_3.10.17-1.0.0_GA">
      <copyfile src="imx/tools/fsl-setup-release.sh" dest="fsl-setup-release.sh" />
   </project>
   </manifest>
