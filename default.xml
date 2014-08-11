@@ -6,11 +6,10 @@
   <remote fetch="git://git.openembedded.org" name="oe" />
   <remote fetch="git://git.freescale.com/imx" name="fsl-release" />
   <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
-  <remote name="embest-tech-github"
-           fetch="git://github.com/embest-tech/" />
+  <remote fetch="git://github.com/embest-tech/" name="embest-tech-github" />
 
   <project remote="embest-tech-github" revision="embest_dora" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="af392c22bf6b563525ede4a81b6755ff1dd2c1c6" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
+  <project remote="embest-tech-github" revision="rohm_dora"   name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
   <project remote="oe" revision="eb4563b83be0a57ede4269ab19688af6baa62cd2" name="meta-openembedded" path="sources/meta-openembedded"/>
 
