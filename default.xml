@@ -5,6 +5,7 @@
   <remote fetch="git://github.com/Freescale" name="freescale" />
   <remote fetch="git://git.openembedded.org" name="oe" />
   <remote fetch="git://git.freescale.com/imx" name="fsl-release" />
+  <remote fetch="git://github.com/kamilpogo" name="kamilpogo" />
   <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
 
   <project remote="yocto" revision="bee7e3756adf70edaeabe9d43166707aab84f581" name="poky" path="sources/poky"/>
@@ -17,7 +18,7 @@
         <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" revision="07ad83db0fb67c5023bd627a61efb7f474c52622" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
+  <project remote="kamilpogo" revision="51a04f68751a6dc226bf85c24edd1bd64117525c" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="5a12677ad000a926d23c444266722a778ea228a7" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
 
   <project remote="OSSystems" revision="fc3969f63bda343c38c40a23f746c560c4735f3e" name="meta-browser" path="sources/meta-browser" />
